@@ -1,11 +1,5 @@
 ---
-lang: ru
-layout: article_with_sidebar
-updated_at: '2017-10-31 16:46 +0400'
-identifier: ref_SuWz9rmN
-title: Работа со значениями атрибутов
-order: 30
-published: false
+identifier: ref_AKpuI63S
 ---
 Данная статья рассматривает следующие вопросы::
 
@@ -90,10 +84,10 @@ _Предзаполненное поле_ и поле _Да/Нет_ позвол
 
 ![]({{site.baseurl}}/attachments/7504859/8719334.png)
 
-On the storefront, customers can choose the option they require by adjusting the respective check box:
+Покупателям в магазине нужно поставить галочку для выбора нужной опции:
 
 ![]({{site.baseurl}}/attachments/7504859/7602537.png)
 
-It should be noted that the method for specifying product options described above does not provide a way to track how many product units with a specific option you have sold and how many you still have on hand. Also, if the product has more than one multi-valued attribute, there is no way to specify, which option combinations (product variants) are actually available. If you need these features, consider installing X-Cart's [Product Variants](http://www.x-cart.com/extensions/addons/product-variants.html) module. This module allows you to create product variants from options and make them have their own prices, SKUs and stock levels.
+Стоит заметить, что описанное использование опций продуктов не позволяет отслеживать, сколько штук продукта с определенной опцией продано, и сколько еще осталось в наличии. Также, если у продукта несколько многозначных атрибутов, невозможно указать, какие комбинации опций (варианты продукта) фактически есть в наличии. Вся эта информация может быть доступна, если установить модуль [Варианты продуктов](http://www.x-cart.com/extensions/addons/product-variants.html). Этот модуль позволяет делать варианты продуктов из опций и задавать для них цены, артикулы и информацию о наличии. 
 
-## Personilization options (editable Textarea)
+## Персонализация продукта (редактируемое текстовое поле)
